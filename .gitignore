@@ -1,0 +1,6 @@
+src
+tar
+.idea
+build-*
+install-*
+__pycache__
