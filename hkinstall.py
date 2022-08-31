@@ -17,7 +17,7 @@ class WCSim(CMake):
         # self._git_tag = "v4.3.482"
         # self._git_clone_dir = "src"
         self._cmakelist_path = "src/WCSim-1.10.0"
-        self._depends_on = {"ROOT": "*"}
+        self._depends_on = {"ROOT": "*", "Geant4": "*"}
         self._cmake_options = {
             "CMAKE_CXX_STANDARD": "14",
             # "Geant4_DIR": "/Users/mguigue/Work/T2K/HK/Software/newSystem/hkpilot/../Geant4/install-Darwin_arm64-gcc_13.1.6-python_3.9.13"
