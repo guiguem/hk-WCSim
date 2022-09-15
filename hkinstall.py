@@ -14,7 +14,7 @@ class WCSim(CMake):
         # self._download_url = "https://github.com/WCSim/WCSim/archive/refs/tags/v1.10.0.zip"
         self._git_url = "git@github.com:guiguem/WCSim.git"
         # self._git_branch = "master"
-        # self._git_tag = "v4.3.482"
+        self._git_tag = "test_v1"
         self._git_clone_dir = "src"
         self._cmakelist_path = "src"
         self._depends_on = {"ROOT": "*", "Geant4": "*"}
