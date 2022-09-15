@@ -11,8 +11,8 @@ class WCSim(CMake):
 
         self._package_name = "WCSim"
         self._package_version = "v1.10.0"
-        self._download_url = "https://github.com/WCSim/WCSim/archive/refs/tags/v1.10.0.zip"
-        # self._git_url = "git@github.com:zeromq/libzmq.git"
+        # self._download_url = "https://github.com/WCSim/WCSim/archive/refs/tags/v1.10.0.zip"
+        self._git_url = "git@github.com:guiguem/WCSim.git"
         # self._git_branch = "master"
         # self._git_tag = "v4.3.482"
         # self._git_clone_dir = "src"
